@@ -1,0 +1,7 @@
+{
+  "name": "React",
+  "version": "1.0.0",
+  "dependencies": {
+    "math": "^0.0.3"
+  }
+}
