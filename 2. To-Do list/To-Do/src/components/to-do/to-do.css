@@ -1,0 +1,39 @@
+.toDo{
+    font-family: "Georgia", Georgia, serif;
+}
+
+.taskFieldBackgroundRed {
+    width: 100px;
+    background-color: red;
+}
+
+.taskFieldBackgroundGreen {
+    width: 100px;
+    background-color: green;
+}
+
+.taskBox{
+    width: 50%;
+    display: inline-flex;
+    flex-direction: column;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.taskInput{
+    border: none;
+    background-color: #3CBC8D;
+}
+
+.addTaskButton {
+    background-color: white;
+    color: black;
+    border: none;
+    transition-duration: 0.4s;
+}
+
+.addTaskButton:hover {
+    background-color: black;
+    color: white;
+}
